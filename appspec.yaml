@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - myPythonApp:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: my-python-app
+        LoadBalancerInfo:
+          ContainerName: my-python-app
+          ContainerPort: 5000
