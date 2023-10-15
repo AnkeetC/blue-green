@@ -2,6 +2,6 @@
 family: my-python-app
 containerDefinitions:
   - name: my-python-app
-    image: aws-docker-image-ECR
+    image: public.ecr.aws/u7v6l4s1/python_application:blue
     portMappings:
       - containerPort: 5000
