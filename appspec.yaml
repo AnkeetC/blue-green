@@ -3,7 +3,7 @@ Resources:
   - myPythonApp:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: my-python-app
+        TaskDefinition: arn:aws:iam::833062305957:role/ecsTaskExecutionRole
         LoadBalancerInfo:
-          ContainerName: my-python-app
+          ContainerName: blue
           ContainerPort: 5000
