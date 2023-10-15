@@ -1,0 +1,7 @@
+# ecs-task-definition.yaml
+family: my-python-app
+containerDefinitions:
+  - name: my-python-app
+    image: aws-docker-image-ECR
+    portMappings:
+      - containerPort: 5000
