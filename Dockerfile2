@@ -25,3 +25,5 @@ EXPOSE 5000
 
 # Start the application
 CMD ["python3", "app2.py"]
+
+#docker build -t python_application -f Dockerfile2 (use this to build file-specific docker image)
