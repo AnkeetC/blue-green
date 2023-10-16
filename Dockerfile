@@ -1,5 +1,5 @@
 # Set the base image to Ubuntu 22.04
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 
 # Install necessary dependencies
