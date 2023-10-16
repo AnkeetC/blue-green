@@ -3,7 +3,7 @@ Resources:
   - myPythonApp:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: arn:aws:elasticloadbalancing:us-east-1:833062305957:loadbalancer/app/mylb/68107357dc8ad9c3
+        TaskDefinition: arn:aws:ecs:us-east-1:833062305957:task-definition/Demo-task:2
         LoadBalancerInfo:
           ContainerName: blue
           ContainerPort: 5000
